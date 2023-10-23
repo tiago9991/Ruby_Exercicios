@@ -1,17 +1,17 @@
-# puts "Digite um numero para obter o Fatorial dele: "
-# numero = gets.chomp.to_i
+puts "Digite um numero para obter o Fatorial dele: "
+numero = gets.chomp.to_i
 
-# def fatorial(numero)
-#   if numero == 0 || numero == 1
-#     1
-#   else
-#     numero * fatorial(numero - 1)
-#  end
-# end
+def fatorial(numero)
+  if numero == 0 || numero == 1
+    1
+  else
+    numero * fatorial(numero - 1)
+ end
+end
 
-# resultado = fatorial(numero)
+resultado = fatorial(numero)
 
-# puts "O fatorial de #{numero} é #{resultado}"
+puts "O fatorial de #{numero} é #{resultado}"
 
 
 # temos a função chamada fatorial com o atributo numero
@@ -23,16 +23,16 @@
 # e o programa vai calculando ate chegar ao 1 do IF.
 
 
-# puts "Digite um número para calcular o fatorial: "
-# numero = gets.chomp.to_i
+puts "Digite um número para calcular o fatorial: "
+numero = gets.chomp.to_i
 
-# fatorial = 1
+fatorial = 1
 
-# for i in 1..numero
-#   fatorial *= i 
-# end
+for i in 1..numero
+  fatorial *= i 
+end
 
-# puts "O fatorial de #{numero} é #{fatorial}"
+puts "O fatorial de #{numero} é #{fatorial}"
 
 
 # nesta abordagem, usamos o loop for, onde pedimos um o numero para o usuario, para calcular o fatorial
